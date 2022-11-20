@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Roll The Dice</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://thenounproject.com/api/private/icons/1099399/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0&token=gAAAAABjedhprA8_zHZRXl4wK5tMzpJZ0z8r7Ur3ideQ6VEZ-bQdsyir-U7rzQZjX0uPZ-u8mbIxD4XLa7MhLo_ZcnnOZiVhQA%3D%3D"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="https://www.pngfind.com/pngs/m/57-572500_dice-clipart-hd-png-download.png"
+      />
+      <h1>Roll the dice</h1>
+      <p>Welcome to the game!</p>
+      <nav>
+        <button>Settings</button>
+        <button>Rules</button>
+        <button id="reset">Reset game</button>
+      </nav>
+    </header>
+    <main id="welcome">
+      <img
+        src="https://www.pngfind.com/pngs/m/57-572500_dice-clipart-hd-png-download.png"
+      />
+      <br />
+      <button id="start">Start new game</button>
+    </main>
+    <main id="game">game</main>
+    <from id="players">players</from>
+    <main id="scores">scores</main>
+    <footer class="footer">
+      <p>
+        Game 2022
+        <br />
+        Developer: Lidan Katzav
+      </p>
+    </footer>
+    <script src="application.js"></script>
+    <template id="input">
+      <label for="name"></label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        pattern="[A-Za-zא-ת]+"
+        required
+      /><br />
+    </template>
+  </body>
+</html>
